@@ -4,14 +4,16 @@ This is a full-stack B2B web application for managing and ordering premium alpin
 
 ## 🗂 Structure
 
+```
 b2b-bellamonte-creamery/
 │
 ├── apps/
-│ ├── frontend/ # Vue 3 app (SPA)
-│ └── backend/ # Express.js API
+│   ├── frontend/     # Vue 3 app (SPA)
+│   └── backend/      # Express.js API
 │
-├── shared/ # Shared config/types
-├── infra/ # Azure DevOps pipelines / IAC in the future
+├── shared/           # Shared config/types
+├── infra/            # Azure DevOps pipelines / IAC in the future
+```
 
 
 ## 📦 Installation
