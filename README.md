@@ -8,7 +8,7 @@ This is a full-stack B2B web application for managing and ordering premium alpin
 b2b-bellamonte-creamery/
 │
 ├── apps/
-│   ├── frontend/     # Vue 3 app (SPA)
+│   ├── frontend/     # Vue 3 app
 │   └── backend/      # Express.js API
 │
 ├── shared/           # Shared config/types
