@@ -1,1 +1,56 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('@/assets/fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('@/assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('@/assets/fonts/Inter/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('@/assets/fonts/Inter/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('@/assets/fonts/Inter/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  /* Colors */
+  --color-cream: #FAF6F0;
+  --color-midnight: #2E3A59;
+  --color-gold: #C9A96E;
+  --color-slate: #6B7280;
+  --color-olive: #7E8F6C;
+  --color-background: var(--color-cream);
+  --color-primary: var(--color-midnight);
+  --color-accent: var(--color-gold);
+  --color-text: var(--color-midnight);
+  --color-muted: var(--color-slate);
+  --color-success: var(--color-olive);
+  /* Fonts */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-accent: 'Inter', sans-serif;
+}
